@@ -171,3 +171,6 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
+button {
+    padding: 12px 24px;
+}
