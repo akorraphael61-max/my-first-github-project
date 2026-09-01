@@ -110,4 +110,33 @@ commits, and pull requests on GitHub.
 
     <button type="submit">Send Message</button>
 
-</form>
+</form>body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}l
