@@ -117,4 +117,57 @@ index html <link rel="stylesheet" href="style.css">
 
 </form>
 <link rel="stylesheet" href="style.css"
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css"
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
