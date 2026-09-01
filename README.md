@@ -91,6 +91,7 @@ commits, and pull requests on GitHub.
 </form><h2>Contact Me</h2>
 
 <form>
+index html <link rel="stylesheet" href="style.css">
 
     <label for="name">Your Name:</label>
     <input type="text" id="name" name="name">
@@ -111,3 +112,4 @@ commits, and pull requests on GitHub.
     <button type="submit">Send Message</button>
 
 </form>
+<link rel="stylesheet" href="style.css">
