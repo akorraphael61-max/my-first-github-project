@@ -116,4 +116,5 @@ index html <link rel="stylesheet" href="style.css">
     <button type="submit">Send Message</button>
 
 </form>
+<link rel="stylesheet" href="style.css"
 <link rel="stylesheet" href="style.css">
