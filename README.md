@@ -66,3 +66,48 @@ commits, and pull requests on GitHub.
 </p>
 
 <button>Contact Me</button>
+<h2>Contact Me</h2>
+
+<form>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name">
+
+    <br><br>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email">
+
+    <br><br>
+
+    <label for="message">Your Message:</label>
+    <br>
+    <textarea id="message" name="message"></textarea>
+
+    <br><br>
+
+    <button type="submit">Send Message</button>
+
+</form><h2>Contact Me</h2>
+
+<form>
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name">
+
+    <br><br>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email">
+
+    <br><br>
+
+    <label for="message">Your Message:</label>
+    <br>
+    <textarea id="message" name="message"></textarea>
+
+    <br><br>
+
+    <button type="submit">Send Message</button>
+
+</form>
