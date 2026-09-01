@@ -11,4 +11,8 @@ I am currently learning GitHub and software development.
 - Learn Git and GitHub
 - Build useful projects
 - Contribute to open-source projects
-- Develop my programming skills
+- Develop my programming skills 
+## What I am learning
+
+I am learning how to use branches,
+commits, and pull requests on GitHub.
