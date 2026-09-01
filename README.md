@@ -17,3 +17,42 @@ I am currently learning GitHub and software development.
 
 I am learning how to use branches,
 commits, and pull requests on GitHub.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Akor Raphael - My Website</title>
+</head>
+
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <h2>About Me</h2>
+
+    <p>Hello! My name is Akor Raphael.</p>
+
+    <p>I am learning web development, Git, and GitHub.</p>
+
+    <h2>My Goals</h2>
+
+    <p>My goal is to become a skilled web developer and build useful websites and applications.</p>
+
+    <h2>My Interests</h2>
+
+    <ul>
+        <li>Web Development</li>
+        <li>Technology</li>
+        <li>Artificial Intelligence</li>
+        <li>Learning New Skills</li>
+    </ul>
+
+    <h2>Useful Link</h2>
+
+    <p>
+        Visit
+        <a href="https://github.com/">GitHub</a>
+        to learn more about coding and open source.
+    </p>
+
+</body>
+</html>
