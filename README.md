@@ -55,4 +55,14 @@ commits, and pull requests on GitHub.
     </p>
 
 </body>
-</html>
+
+</html><img src="https://via.placeholder.com/200" alt="My profile picture">
+
+<h2>Welcome to My Journey</h2>
+
+<p>
+    I am learning how to build websites and applications.
+    This is the beginning of my journey into web development.
+</p>
+
+<button>Contact Me</button>
