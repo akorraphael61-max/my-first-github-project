@@ -93,6 +93,10 @@ commits, and pull requests on GitHub.
 <form>
 index html <link rel="stylesheet" href="style.css">
 
+<head>
+    <title>Akor Raphael - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
     <label for="name">Your Name:</label>
     <input type="text" id="name" name="name">
 
