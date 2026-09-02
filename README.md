@@ -406,3 +406,7 @@ button {
     background: #007bff;
     color: white;
 }
+css
+button:hover {
+    transform: scale(1.05);
+}
