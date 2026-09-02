@@ -268,3 +268,17 @@ index html
         with HTML and CSS.
     </p>
 </section>
+style css
+.about {
+    padding: 60px 20px;
+}
+
+.about h2 {
+    font-size: 35px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+}
