@@ -352,3 +352,7 @@ style css
         width: 80%;
     }
 }
+index html 
+<footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+</footer>
