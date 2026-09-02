@@ -396,3 +396,13 @@ style css
 .contact p {
     margin: 10px;
 }
+css
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+}
