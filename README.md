@@ -282,3 +282,22 @@ style css
     max-width: 600px;
     margin: auto;
 }
+index html 
+<section class="services">
+    <h2>My Services</h2>
+
+    <div class="service-box">
+        <h3>Web Design</h3>
+        <p>I create clean and beautiful websites.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Web Development</h3>
+        <p>I build functional websites using HTML and CSS.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Website Styling</h3>
+        <p>I make websites look modern and professional.</p>
+    </div>
+</section>
