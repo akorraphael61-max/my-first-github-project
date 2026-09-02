@@ -429,3 +429,14 @@ header {
 }
 css
 transition: 0.3s;
+css
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+}
