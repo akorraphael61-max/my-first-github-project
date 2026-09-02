@@ -368,3 +368,9 @@ footer p {
     font-size: 16px;
     margin: 0;
 }
+index html 
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: example@email.com</p>
+    <p>Phone: +234 800 000 0000</p>
+</section>
