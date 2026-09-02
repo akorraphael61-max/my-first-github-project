@@ -440,3 +440,7 @@ button {
     color: white;
     transition: 0.3s;
 }
+css
+button:hover {
+    transform: scale(1.05);
+}
