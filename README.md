@@ -260,3 +260,11 @@ style css
 button:hover {
     transform: scale(1.05);
 }
+index html 
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am learning web development and building websites
+        with HTML and CSS.
+    </p>
+</section>
