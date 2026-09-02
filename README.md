@@ -240,3 +240,9 @@ h1 {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+css
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
