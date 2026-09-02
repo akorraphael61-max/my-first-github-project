@@ -139,4 +139,18 @@ button {
     padding: 12px 20px;
     font-size: 16px;
     cursor: pointer;
-}l
+}
+ index html 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to My Website</h1>
+    <p>I am learning web design.</p>
+
+</body>
+</html>
