@@ -230,3 +230,7 @@ nav a {
     margin: 0 15px;
     font-size: 18px;
 }
+style css
+nav a:hover {
+    color: yellow;
+}
