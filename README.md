@@ -356,3 +356,15 @@ index html
 <footer>
     <p>&copy; 2026 My Website. All rights reserved.</p>
 </footer>
+style css
+footer {
+    background: #222;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
