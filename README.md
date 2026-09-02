@@ -248,3 +248,11 @@ p {
 }
 index html 
 <button>Get Started</button>
+style css 
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
