@@ -337,3 +337,18 @@ css
     gap: 20px;
     flex-wrap: wrap;
 }
+style css 
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .service-box {
+        width: 80%;
+    }
+}
