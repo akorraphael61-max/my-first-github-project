@@ -191,3 +191,23 @@ index html
 
 </body>
 </html>
+style css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 100px 20px;
+    background: #222;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
