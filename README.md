@@ -455,3 +455,13 @@ style css
 index html 
 <p>Email: example@email.com</p>
 <p>Email: <a href="mailto:example@email.com">Contact Me</a></p>
+style css
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
