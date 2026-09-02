@@ -218,3 +218,15 @@ index html
     <a href="#">Services</a>
     <a href="#">Contact</a>
 </nav>
+style css 
+nav {
+    background: black;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
