@@ -211,3 +211,10 @@ h1 {
 p {
     font-size: 20px;
 }
+index html 
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
