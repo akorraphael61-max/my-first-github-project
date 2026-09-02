@@ -444,3 +444,11 @@ css
 button:hover {
     transform: scale(1.05);
 }
+style css 
+.service-box {
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
