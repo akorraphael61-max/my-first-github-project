@@ -322,3 +322,10 @@ style css
 .service-box h3 {
     font-size: 22px;
 }
+css
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
