@@ -168,4 +168,7 @@ p {
     font-size: 20px;
 }h1 {
     color: red;
+}h1 {
+    color: red;
+    font-size: 50px;
 }
