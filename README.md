@@ -301,3 +301,24 @@ index html
         <p>I make websites look modern and professional.</p>
     </div>
 </section>
+style css 
+.services {
+    padding: 60px 20px;
+}
+
+.services h2 {
+    font-size: 35px;
+}
+
+.service-box {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+}
