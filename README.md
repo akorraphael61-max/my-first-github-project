@@ -427,3 +427,5 @@ header {
     background-size: cover;
     background-position: center;
 }
+css
+transition: 0.3s;
