@@ -388,3 +388,11 @@ style css
 .contact p {
     font-size: 18px;
 }
+style css
+.contact {
+    background: #f4f4f4;
+}
+
+.contact p {
+    margin: 10px;
+}
