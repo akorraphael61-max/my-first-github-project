@@ -154,3 +154,16 @@ button {
 
 </body>
 </html>
+style css
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
