@@ -256,3 +256,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+style css 
+button:hover {
+    transform: scale(1.05);
+}
