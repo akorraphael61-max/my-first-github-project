@@ -234,3 +234,9 @@ style css
 nav a:hover {
     color: yellow;
 }
+css
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
