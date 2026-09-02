@@ -1,4 +1,5 @@
 
+
 # my-first-github-project
 My first project while using githuband software development 
 # My First GitHub Project
@@ -374,3 +375,16 @@ index html
     <p>Email: example@email.com</p>
     <p>Phone: +234 800 000 0000</p>
 </section>
+style css
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 35px;
+}
+
+.contact p {
+    font-size: 18px;
+}
