@@ -418,3 +418,12 @@ header {
     background-size: cover;
     background-position: center;
 }
+css
+header {
+    padding: 100px 20px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url("https://images.unsplash.com/photo-1497366811353-6870744d04b2");
+    background-size: cover;
+    background-position: center;
+}
