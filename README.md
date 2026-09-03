@@ -768,3 +768,10 @@ css
     transform: translateY(-3px) scale(1.05);
     background: #0056b3;
 }
+css 
+.about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    color: #555;
+}
