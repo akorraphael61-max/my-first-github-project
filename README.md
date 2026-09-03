@@ -803,3 +803,19 @@ css
     margin-bottom: 15px;
     transition: all 0.3s ease;
 }
+style css 
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: #0056b3;
+}
