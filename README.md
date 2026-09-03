@@ -521,3 +521,19 @@ button:hover {
 }
 index html 
 <a href="#contact" class="start-button">Get Started</a>
+style css 
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+}
+
+.start-button:hover {
+    transform: scale(1.05);
+    background: #0056b3;
+}
