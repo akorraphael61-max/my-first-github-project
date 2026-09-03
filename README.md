@@ -580,3 +580,8 @@ footer p {
     font-size: 16px;
     margin: 0;
 }
+Index html 
+<footer>
+    <a href="#" class="top-button">Back to Top ↑</a>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+</footer>
