@@ -727,3 +727,12 @@ nav a:hover {
     color: yellow;
     transform: scale(1.1);
 }
+css
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
