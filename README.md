@@ -621,3 +621,7 @@ nav a {
     font-size: 18px;
     transition: 0.3s;
 }
+style css 
+section {
+    margin-bottom: 30px;
+}
