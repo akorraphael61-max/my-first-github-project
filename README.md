@@ -585,3 +585,19 @@ Index html
     <a href="#" class="top-button">Back to Top ↑</a>
     <p>&copy; 2026 My Website. All rights reserved.</p>
 </footer>
+style css 
+.top-button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.top-button:hover {
+    background: white;
+    color: #222;
+}
