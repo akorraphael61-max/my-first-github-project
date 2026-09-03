@@ -742,3 +742,12 @@ nav a:hover {
     transform: scale(1.1);
     border-bottom: 2px solid yellow;
 }
+css 
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
