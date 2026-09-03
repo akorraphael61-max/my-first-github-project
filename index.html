@@ -22,19 +22,21 @@
     <section>
       <h2>Contact</h2>
       <p>If you want to get in touch you can email me at <a href="mailto:youremail@example.com">youremail@example.com</a> (replace with your address).</p>
-      <form class="contact-form">
+      <!-- To enable Formspree: replace YOUR_FORM_ID below with your Formspree form ID -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <label for="name">Your name</label>
-        <input id="name" name="name" type="text" placeholder="Your name">
+        <input id="name" name="name" type="text" placeholder="Your name" required>
 
         <label for="email">Your email</label>
-        <input id="email" name="email" type="email" placeholder="you@example.com">
+        <input id="email" name="_replyto" type="email" placeholder="you@example.com" required>
 
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
 
+        <input type="hidden" name="_subject" value="New contact from website">
         <button type="submit">Send</button>
       </form>
-      <p class="note">Note: This form is for demonstration — it does not send messages until you add a form handler or a service like Formspree or Netlify Forms.</p>
+      <p class="note">Note: This form is for demonstration — it will send messages when you replace <code>YOUR_FORM_ID</code> with your Formspree form ID. See README for setup steps.</p>
     </section>
 
     <section>
