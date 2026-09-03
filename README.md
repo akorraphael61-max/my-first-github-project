@@ -625,3 +625,9 @@ style css
 section {
     margin-bottom: 30px;
 }
+style css 
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;
+}
