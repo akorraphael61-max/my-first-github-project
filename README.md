@@ -709,3 +709,11 @@ nav {
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
+css
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
