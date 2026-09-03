@@ -465,3 +465,5 @@ style css
 .contact a:hover {
     text-decoration: underline;
 }
+index html change to
+<section class="about">
