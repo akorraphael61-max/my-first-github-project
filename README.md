@@ -519,3 +519,5 @@ button:hover {
     transform: scale(1.05);
     background: #0056b3;
 }
+index html 
+<a href="#contact" class="start-button">Get Started</a>
