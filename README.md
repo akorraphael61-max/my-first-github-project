@@ -886,3 +886,5 @@ css
     align-items: stretch;
     gap: 20px;
     flex-wrap: wrap;
+service box css 
+border: 1px solid #e0e0e0;
