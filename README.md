@@ -499,3 +499,13 @@ open style css
 html {
     scroll-behavior: smooth;
 }
+style css 
+.service-box {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+}
