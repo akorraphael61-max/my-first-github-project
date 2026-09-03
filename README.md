@@ -779,3 +779,9 @@ css
     background: #0056b3;
     transform: translateY(-3px) scale(1.05);
 }
+css
+footer p {
+    font-size: 15px;
+    margin: 0;
+    opacity: 0.8;
+}
