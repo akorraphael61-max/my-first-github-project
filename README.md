@@ -819,3 +819,16 @@ button:hover {
     transform: scale(1.05);
     background: #0056b3;
 }
+css 
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
