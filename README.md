@@ -878,3 +878,11 @@ css
     color: #555;
     line-height: 1.8;
 }
+css 
+.services {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
