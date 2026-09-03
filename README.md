@@ -467,3 +467,4 @@ style css
 }
 index html change to
 <section class="about">
+<section class="about" id="about">
