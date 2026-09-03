@@ -548,3 +548,8 @@ style css
     font-weight: bold;
     transition: 0.3s;
 }
+css
+.contact a:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
