@@ -477,3 +477,7 @@ html navigation
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
 </nav>
+open style css
+html {
+    scroll-behavior: smooth;
+}
