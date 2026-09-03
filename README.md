@@ -695,3 +695,8 @@ h1 {
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+style css 
+.service-box:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
