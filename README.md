@@ -751,3 +751,15 @@ nav a {
     font-size: 18px;
     transition: all 0.3s ease;
 }
+css 
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
