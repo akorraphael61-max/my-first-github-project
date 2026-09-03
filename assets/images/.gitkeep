@@ -1,0 +1,7 @@
+# placeholder to keep this directory in git
+
+Place your site images in this directory, for example:
+
+- assets/images/profile.jpg
+
+Then update index.html to point to the new image path.
