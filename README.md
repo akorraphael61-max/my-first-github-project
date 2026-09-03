@@ -605,3 +605,11 @@ style css
 style css 
 header {
     padding: 140px 20px;
+css
+nav {
+    background: black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
