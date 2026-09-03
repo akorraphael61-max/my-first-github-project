@@ -236,16 +236,34 @@ nav a:hover {
     color: yellow;
 }
 css
-h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-css
-p {
-    font-size: 20px;
-    line-height: 1.6;
-    margin-top: 10px;
+@media (max-width: 600px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px 0;
+        font-size: 16px;
+    }
+
+    header {
+        padding: 70px 15px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .service-box {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .contact {
+        padding: 40px 15px;
+    }
 }
 index html 
 <button>Get Started</button>
