@@ -679,3 +679,12 @@ style css
     flex-wrap: wrap;
     background: #f8f9fa;
 }
+style css 
+.service-box h3 {
+    font-size: 22px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #555;
+}
