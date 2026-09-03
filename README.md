@@ -700,3 +700,12 @@ style css
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+style css 
+nav {
+    background: black;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
