@@ -470,3 +470,10 @@ index html change to
 <section class="about" id="about">
 <section class="services" id="services">
 <section class="contact" id="contact">
+html navigation 
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
