@@ -688,3 +688,10 @@ style css
     font-size: 16px;
     color: #555;
 }
+style css 
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
