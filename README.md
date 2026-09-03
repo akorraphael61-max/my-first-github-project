@@ -562,3 +562,8 @@ style css
     font-size: 35px;
     margin-bottom: 20px;
 }
+style css 
+section h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
