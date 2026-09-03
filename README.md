@@ -553,3 +553,8 @@ css
     background: #0056b3;
     transform: scale(1.05);
 }
+style css 
+.about {
+    padding: 80px 20px;
+    background: #ffffff;
+}
