@@ -870,3 +870,11 @@ style css
     transition: all 0.3s ease;
     cursor: pointer;
 }
+css 
+.about p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    color: #555;
+    line-height: 1.8;
+}
