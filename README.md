@@ -670,3 +670,12 @@ style css
     background: white;
     box-sizing: border-box;
 }
+style css 
+.services {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: #f8f9fa;
+}
