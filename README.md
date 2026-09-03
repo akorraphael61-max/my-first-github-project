@@ -736,3 +736,9 @@ nav a {
     font-size: 18px;
     transition: 0.3s;
 }
+css
+nav a:hover {
+    color: yellow;
+    transform: scale(1.1);
+    border-bottom: 2px solid yellow;
+}
