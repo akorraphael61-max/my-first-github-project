@@ -717,3 +717,8 @@ nav a {
     font-size: 18px;
     transition: 0.3s;
 }
+css 
+h1 {
+    font-size: 32px;
+    line-height: 1.2;
+}
