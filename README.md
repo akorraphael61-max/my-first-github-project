@@ -575,3 +575,8 @@ footer {
     margin-top: 40px;
     text-align: center;
 }
+css
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
