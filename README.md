@@ -1,176 +1,54 @@
-
 # my-first-github-project
-My first project while using githuband software development 
-# My First GitHub Project
 
-Hello! My name is Akor Raphael.
+A simple personal homepage and learning project by Akor Raphael. This repository contains a small static site used to practice HTML, CSS, and GitHub Pages.
 
-I am currently learning GitHub and software development.
+## What’s in this repository
 
-## My Goals
+- `index.html` — the site homepage (project root).
+- `css/style.css` — site styles.
+- `assets/images/` — images used by the site (add your images here).
 
-- Learn Git and GitHub
-- Build useful projects
-- Contribute to open-source projects
-- Develop my programming skills 
-## What I am learning
+## About
 
-I am learning how to use branches,
-commits, and pull requests on GitHub.
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Akor Raphael - My Website</title>
-</head>
+This project is a beginner-friendly portfolio/playground for learning web development and GitHub. The contact form in `index.html` is for demonstration and does not send messages until a form handler or third-party service is configured.
 
-<body>
+## Local preview
 
-    <h1>Welcome to My Website</h1>
+1. Clone the repo:
 
-    <h2>About Me</h2>
+   git clone https://github.com/akorraphael61-max/my-first-github-project.git
+   cd my-first-github-project
 
-    <p>Hello! My name is Akor Raphael.</p>
+2. Start a simple HTTP server and open the site in your browser:
 
-    <p>I am learning web development, Git, and GitHub.</p>
+   python3 -m http.server 8000
+   # then open http://localhost:8000
 
-    <h2>My Goals</h2>
+Or open `index.html` directly in your browser.
 
-    <p>My goal is to become a skilled web developer and build useful websites and applications.</p>
+## Publish with GitHub Pages
 
-    <h2>My Interests</h2>
+1. Make sure `index.html` is at the repository root on the branch you want to publish (default branch is `main`).
+2. In GitHub: go to Repository → Settings → Pages → Build and deployment. Select:
+   - Branch: `main`
+   - Folder: `/ (root)`
+3. Save. The site will be available at:
+   `https://akorraphael61-max.github.io/my-first-github-project/` (give it a minute to build).
 
-    <ul>
-        <li>Web Development</li>
-        <li>Technology</li>
-        <li>Artificial Intelligence</li>
-        <li>Learning New Skills</li>
-    </ul>
+## Notes
 
-    <h2>Useful Link</h2>
+- Placeholders: The current site uses a placeholder image and a placeholder contact email. Replace them in `index.html` with your own image (put files under `assets/images/`) and your email.
+- Contact form: To make the form work without a backend, use services like Formspree or Netlify Forms. I can add a Formspree configuration if you want.
+- Pull Request #3: This PR mixes HTML/CSS into `README.md`, which would make the repository messy. Do not merge that PR as-is. The site files have been placed properly in `index.html` and `css/style.css` instead.
 
-    <p>
-        Visit
-        <a href="https://github.com/">GitHub</a>
-        to learn more about coding and open source.
-    </p>
+## How to contribute
 
-</body>
+1. Create a new branch for your change:
 
-</html><img src="https://via.placeholder.com/200" alt="My profile picture">
+   git checkout -b feature/your-change
 
-<h2>Welcome to My Journey</h2>
+2. Make changes, commit, and open a pull request.
 
-<p>
-    I am learning how to build websites and applications.
-    This is the beginning of my journey into web development.
-</p>
+## License
 
-<button>Contact Me</button>
-<h2>Contact Me</h2>
-
-<form>
-
-    <label for="name">Your Name:</label>
-    <input type="text" id="name" name="name">
-
-    <br><br>
-
-    <label for="email">Your Email:</label>
-    <input type="email" id="email" name="email">
-
-    <br><br>
-
-    <label for="message">Your Message:</label>
-    <br>
-    <textarea id="message" name="message"></textarea>
-
-    <br><br>
-
-    <button type="submit">Send Message</button>
-
-</form><h2>Contact Me</h2>
-
-<form>
-index html <link rel="stylesheet" href="style.css">
-
-<head>
-    <title>Akor Raphael - My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-    <label for="name">Your Name:</label>
-    <input type="text" id="name" name="name">
-
-    <br><br>
-
-    <label for="email">Your Email:</label>
-    <input type="email" id="email" name="email">
-
-    <br><br>
-
-    <label for="message">Your Message:</label>
-    <br>
-    <textarea id="message" name="message"></textarea>
-
-    <br><br>
-
-    <button type="submit">Send Message</button>
-
-</form>
-<link rel="stylesheet" href="style.css"
-<link rel="stylesheet" href="style.css"
-body {
-    font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    margin-top: 40px;
-}
-
-p {
-    font-size: 18px;
-}
-
-img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-button {
-    background-color: #222;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    opacity: 0.8;
-}
-
-input,
-textarea {
-    width: 100%;
-    max-width: 500px;
-    padding: 12px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-button {
-    padding: 12px 24px;
-}
+Add a license file if you want to publish this project with specific terms.
