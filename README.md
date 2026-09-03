@@ -630,4 +630,10 @@ body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
     text-align: center;
+} style css 
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
 }
