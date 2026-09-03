@@ -1,0 +1,44 @@
+/* css/style.css - basic styling for Akor Raphael's homepage */
+:root{
+  --max-width:900px;
+  --bg:#f7f7f7;
+  --card:#ffffff;
+  --muted:#555;
+  --accent:#007bff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background:var(--bg);
+  color:#222;
+  line-height:1.6;
+}
+.container{
+  max-width:var(--max-width);
+  margin:24px auto;
+  padding:20px;
+}
+.site-header{text-align:center;margin-bottom:24px}
+.avatar{
+  width:180px;height:180px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 12px;
+}
+h1{font-size:32px;margin:0 0 8px;text-transform:uppercase}
+.lead{color:var(--muted);margin:0 0 6px}
+main{background:var(--card);padding:22px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+section{margin-bottom:28px}
+section h2{text-transform:uppercase;letter-spacing:1px;margin-top:0}
+.contact-form label{display:block;margin-top:12px;font-weight:600}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;margin-top:6px;border:1px solid #e2e8f0;border-radius:8px;background:#fff}
+.contact-form button{margin-top:12px;padding:10px 16px;background:var(--accent);color:#fff;border:none;border-radius:8px;cursor:pointer}
+.contact-form button:hover{opacity:.95;transform:translateY(-1px)}
+.note{color:var(--muted);font-size:14px}
+ul{padding-left:20px}
+a{color:var(--accent)}
+footer{margin-top:18px;text-align:center;color:#666;font-size:14px}
+/* Responsive tweaks */
+@media (max-width:720px){
+  .container{padding:16px}
+  h1{font-size:26px}
+  .avatar{width:140px;height:140px}
+}
