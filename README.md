@@ -656,3 +656,17 @@ css
     margin: 10px auto;
     box-sizing: border-box;
 }
+style css 
+.service-box {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    min-height: 120px;
+    background: white;
+    box-sizing: border-box;
+}
