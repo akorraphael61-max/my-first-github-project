@@ -890,3 +890,9 @@ service box css
 border: 1px solid #e0e0e0;
 css 
 border-radius: 15px;
+css 
+.service-box h3 {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
