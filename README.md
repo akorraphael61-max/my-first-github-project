@@ -514,3 +514,8 @@ style css
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+css
+button:hover {
+    transform: scale(1.05);
+    background: #0056b3;
+}
