@@ -557,4 +557,8 @@ style css
 .about {
     padding: 80px 20px;
     background: #ffffff;
+} css 
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
 }
