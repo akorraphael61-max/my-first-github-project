@@ -722,3 +722,8 @@ h1 {
     font-size: 32px;
     line-height: 1.2;
 }
+css 
+nav a:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
