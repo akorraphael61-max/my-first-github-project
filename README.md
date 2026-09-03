@@ -649,3 +649,10 @@ css
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     min-height: 120px;
 }
+css
+
+.service-box {
+    width: 85%;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
