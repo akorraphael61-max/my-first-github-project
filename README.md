@@ -888,3 +888,5 @@ css
     flex-wrap: wrap;
 service box css 
 border: 1px solid #e0e0e0;
+css 
+border-radius: 15px;
