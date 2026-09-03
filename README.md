@@ -567,3 +567,11 @@ section h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+style css 
+footer {
+    background: #222;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
