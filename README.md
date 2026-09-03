@@ -896,3 +896,10 @@ css
     margin-top: 5px;
     margin-bottom: 15px;
 }
+css 
+.service-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    margin-top: 10px;
+}
