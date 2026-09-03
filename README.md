@@ -637,3 +637,15 @@ body {
     text-align: center;
     line-height: 1.6;
 }
+css
+.service-box {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    min-height: 120px;
+}
