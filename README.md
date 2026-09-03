@@ -764,6 +764,7 @@ css
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 css 
+
 .start-button:hover {
     transform: translateY(-3px) scale(1.05);
     background: #0056b3;
@@ -784,4 +785,10 @@ footer p {
     font-size: 15px;
     margin: 0;
     opacity: 0.8;
+}
+css 
+.top-button:hover {
+    background: white;
+    color: #222;
+    transform: translateY(-3px);
 }
