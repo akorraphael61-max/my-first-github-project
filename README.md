@@ -1,4 +1,4 @@
-
+7
 
 # my-first-github-project
 My first project while using githuband software development 
@@ -508,4 +508,9 @@ style css
     border: 1px solid #ddd;
     border-radius: 10px;
     transition: 0.3s;
- box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+style css 
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
