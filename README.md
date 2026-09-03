@@ -236,6 +236,35 @@ nav a:hover {
     color: yellow;
 }
 css
+@media (max-width: 600px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px 0;
+        font-size: 16px;
+    }
+
+    header {
+        padding: 70px 15px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .service-box {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .contact {
+        padding: 40px 15px;
+    }
+}
 index html 
 <button>Get Started</button>
 style css 
