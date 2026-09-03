@@ -537,3 +537,14 @@ style css
     transform: scale(1.05);
     background: #0056b3;
 }
+style css 
+.contact a {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
