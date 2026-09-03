@@ -613,3 +613,11 @@ nav {
     top: 0;
     z-index: 1000;
 }
+css
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
