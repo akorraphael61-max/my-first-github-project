@@ -27,7 +27,7 @@
         <h2>Contact</h2>
         <p>If you want to get in touch you can email me at <a href="mailto:youremail@example.com">youremail@example.com</a> (replace with your address).</p>
         <!-- To enable Formspree: replace YOUR_FORM_ID below with your Formspree form ID -->
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Contact form">
+        <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Contact form">
           <label for="name">Your name</label>
           <input id="name" name="name" type="text" placeholder="Your name" required>
 
@@ -38,8 +38,9 @@
           <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
 
           <input type="hidden" name="_subject" value="New contact from website">
-          <button type="submit">Send</button>
+          <button id="submitBtn" type="submit">Send</button>
         </form>
+        <p id="formStatus" class="note" aria-live="polite"></p>
         <p class="note">Note: This form is for demonstration — it will send messages when you replace <code>YOUR_FORM_ID</code> with your Formspree form ID. See README for setup steps.</p>
       </section>
 
@@ -55,5 +56,41 @@
       <p>© 2026 Akor Raphael</p>
     </footer>
   </div>
+
+  <script>
+    // Client-side fallback: if the form still uses the placeholder Formspree ID,
+    // intercept submission, validate, and show a success message locally.
+    (function(){
+      var form = document.getElementById('contactForm');
+      var submitBtn = document.getElementById('submitBtn');
+      var status = document.getElementById('formStatus');
+      function usesPlaceholder(action){
+        return action && action.indexOf('YOUR_FORM_ID') !== -1;
+      }
+      form.addEventListener('submit', function(e){
+        var action = form.getAttribute('action');
+        if(usesPlaceholder(action)){
+          e.preventDefault();
+          // basic front-end validation (required attrs already present)
+          var name = document.getElementById('name').value.trim();
+          var email = document.getElementById('email').value.trim();
+          var message = document.getElementById('message').value.trim();
+          if(!name || !email || !message){
+            status.textContent = 'Please fill out all fields before sending.';
+            return;
+          }
+          // show a local success message
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Sending...';
+          setTimeout(function(){
+            submitBtn.textContent = 'Sent';
+            status.textContent = 'Thanks — your message was received (local demo). To enable real submissions, replace the Formspree placeholder ID in the form action with your Formspree form ID.';
+            submitBtn.disabled = false;
+          }, 800);
+        }
+        // If the action has a real endpoint, allow normal submit to proceed.
+      });
+    })();
+  </script>
 </body>
 </html>
