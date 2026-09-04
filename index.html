@@ -3,52 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Personal portfolio and learning project by Akor Raphael. Practice HTML, CSS, and GitHub Pages.">
   <title>Akor Raphael — My Website</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <img class="avatar" src="https://via.placeholder.com/180" alt="Akor Raphael — profile photo">
-    <h1>Akor Raphael</h1>
-    <p class="lead">Learning web development, Git, and GitHub. Building small projects and improving my skills.</p>
-  </header>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>I am learning how to build websites and applications. This site is a simple portfolio and playground for learning HTML, CSS, and GitHub Pages.</p>
-    </section>
+  <div class="container">
+    <header class="site-header">
+      <img class="avatar" src="https://via.placeholder.com/180" alt="Akor Raphael — profile photo">
+      <h1>Akor Raphael</h1>
+      <p class="lead">Learning web development, Git, and GitHub. Building small projects and improving my skills.</p>
+    </header>
 
-    <section>
-      <h2>Contact</h2>
-      <p>If you want to get in touch you can email me at <a href="mailto:youremail@example.com">youremail@example.com</a> (replace with your address).</p>
-      <!-- To enable Formspree: replace YOUR_FORM_ID below with your Formspree form ID -->
-      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="name">Your name</label>
-        <input id="name" name="name" type="text" placeholder="Your name" required>
+    <main id="main">
+      <section>
+        <h2>About</h2>
+        <p>I am learning how to build websites and applications. This site is a simple portfolio and playground for learning HTML, CSS, and GitHub Pages.</p>
+      </section>
 
-        <label for="email">Your email</label>
-        <input id="email" name="_replyto" type="email" placeholder="you@example.com" required>
+      <section>
+        <h2>Contact</h2>
+        <p>If you want to get in touch you can email me at <a href="mailto:youremail@example.com">youremail@example.com</a> (replace with your address).</p>
+        <!-- To enable Formspree: replace YOUR_FORM_ID below with your Formspree form ID -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Contact form">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          <label for="email">Your email</label>
+          <input id="email" name="_replyto" type="email" placeholder="you@example.com" required>
 
-        <input type="hidden" name="_subject" value="New contact from website">
-        <button type="submit">Send</button>
-      </form>
-      <p class="note">Note: This form is for demonstration — it will send messages when you replace <code>YOUR_FORM_ID</code> with your Formspree form ID. See README for setup steps.</p>
-    </section>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
 
-    <section>
-      <h2>Project links</h2>
-      <ul>
-        <li><a href="https://github.com/akorraphael61-max/my-first-github-project">Repository on GitHub</a></li>
-      </ul>
-    </section>
-  </main>
+          <input type="hidden" name="_subject" value="New contact from website">
+          <button type="submit">Send</button>
+        </form>
+        <p class="note">Note: This form is for demonstration — it will send messages when you replace <code>YOUR_FORM_ID</code> with your Formspree form ID. See README for setup steps.</p>
+      </section>
 
-  <footer>
-    <p>© 2026 Akor Raphael</p>
-  </footer>
+      <section>
+        <h2>Project links</h2>
+        <ul>
+          <li><a href="https://github.com/akorraphael61-max/my-first-github-project" target="_blank" rel="noopener noreferrer">Repository on GitHub</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>© 2026 Akor Raphael</p>
+    </footer>
+  </div>
 </body>
 </html>
