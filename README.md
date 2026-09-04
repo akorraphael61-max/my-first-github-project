@@ -52,9 +52,23 @@ Example: Use Formspree (no backend required)
      <!-- your inputs -->
    </form>
 
-3. Optionally add a hidden input to prevent spam or to set a redirect after submit.
+3. Optionally add a hidden input to prevent spam or to set a redirect after submit (example in `index.html` uses `_next` to redirect to a thank-you page).
 
 I can help add a working Formspree example if you want — tell me your Formspree form ID or I can add a placeholder action and instructions.
+
+## Screenshot / Demo
+
+![Site screenshot](https://via.placeholder.com/800x400?text=Site+Screenshot)
+
+Visit the live demo (after enabling Pages):
+
+https://akorraphael61-max.github.io/my-first-github-project/
+
+There is also a simple `thank-you.html` page included that the form can redirect to after a successful submit. To enable the redirect with Formspree, add this hidden input to your form (already included in the example form in `index.html`):
+
+```html
+<input type="hidden" name="_next" value="https://akorraphael61-max.github.io/my-first-github-project/thank-you.html">
+```
 
 ## Accessibility & responsiveness checklist
 
@@ -87,28 +101,11 @@ I can help add a working Formspree example if you want — tell me your Formspre
 
 ## License
 
-Add a LICENSE file if you want to publish this project with specific terms. To get started, you can add the MIT license:
-
-```
-MIT License
-
-Copyright (c) 2026 Akor Raphael
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-[...full MIT text goes here or use GitHub's license picker...]
-```
-
-If you want, I can add the full LICENSE file for you (MIT, Apache 2.0, or another license).
+This project is published under the MIT License. See the `LICENSE` file for details.
 
 ---
 
-If this looks good I can commit these changes directly or make edits (shorter/longer, more or less technical). Tell me if you want me to also:
-- Add a working Formspree form in `index.html`.
-- Add a LICENSE file and a `.gitignore`.
-- Add a screenshot and example deploy link.
+If you want more changes I can:
+- Wire the contact form to Formspree (add your Formspree ID) — I can update the form action and add a redirect.
+- Replace the avatar image with a real photo you provide (add the image to `assets/images/`).
+- Add a real screenshot file and update README to use it.
