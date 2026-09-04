@@ -25,7 +25,7 @@
 
       <section>
         <h2>Contact</h2>
-        <p>If you want to get in touch you can email me at <a href="mailto:youremail@example.com">youremail@example.com</a> (replace with your address).</p>
+        <p>If you want to get in touch you can email me at <a href="mailto:youremail@example.com">youremail@example.com</a> (replace with your address), or use the contact form below.</p>
         <!-- To enable Formspree: replace YOUR_FORM_ID below with your Formspree form ID -->
         <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Contact form">
           <label for="name">Your name</label>
@@ -37,11 +37,22 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
 
+          <!-- Spam honeypot (hidden to users) -->
+          <input type="text" name="_honeypot" id="_honeypot" style="position:absolute;left:-9999px;top:auto;" tabindex="-1" autocomplete="off">
+
+          <!-- Consent checkbox for privacy / GDPR -->
+          <label style="display:block;margin-top:12px;">
+            <input type="checkbox" name="consent" required> I consent to my message being processed (see <a href="/privacy.html">Privacy Policy</a>).
+          </label>
+
+          <!-- Optional redirect after successful submit (replace with your Pages URL when ready) -->
+          <input type="hidden" name="_next" value="https://akorraphael61-max.github.io/my-first-github-project/thank-you.html">
+
           <input type="hidden" name="_subject" value="New contact from website">
           <button id="submitBtn" type="submit">Send</button>
         </form>
         <p id="formStatus" class="note" aria-live="polite"></p>
-        <p class="note">Note: This form is for demonstration — it will send messages when you replace <code>YOUR_FORM_ID</code> with your Formspree form ID. See README for setup steps.</p>
+        <p class="note">Note: This form is for demonstration — it will send messages when you replace <code>YOUR_FORM_ID</code> with your Formspree form ID. See <a href="/privacy.html">Privacy Policy</a> for how messages are handled.</p>
       </section>
 
       <section>
@@ -75,6 +86,11 @@
           var name = document.getElementById('name').value.trim();
           var email = document.getElementById('email').value.trim();
           var message = document.getElementById('message').value.trim();
+          var honeypot = document.getElementById('_honeypot').value.trim();
+          if(honeypot){
+            // silently drop spam
+            return;
+          }
           if(!name || !email || !message){
             status.textContent = 'Please fill out all fields before sending.';
             return;
